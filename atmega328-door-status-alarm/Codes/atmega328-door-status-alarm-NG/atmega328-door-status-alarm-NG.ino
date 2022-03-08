@@ -19,7 +19,7 @@ anticlockwise 415*/
 #define potTimer A1
 unsigned long timer = 1000;
 int relayStatus = 0;
-unsigned long interval = 10000;
+unsigned long interval = 30000;
 unsigned long previousMillis = 0;
 
 int measuredDistance = 0;
