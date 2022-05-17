@@ -17,6 +17,12 @@
 * Hardware needed- Atmega328 IC or dev board.
 * Atmega328 Documentation- https://www.microchip.com/en-us/product/ATmega328
 
+
+### Dependencies ###
+* Download and Install ModbusMaster Library - https://github.com/4-20ma/ModbusMaster
+* Download and Install CRC16 - https://github.com/vinmenn/Crc16
+
+
 ### Who do I talk to? ###
 
 * Repository is owned and managed by Nandan Ghawate.
