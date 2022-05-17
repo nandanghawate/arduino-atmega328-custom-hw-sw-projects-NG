@@ -31,22 +31,21 @@ void setup() {
 void loop() {
   preTransmission();
   Serial.print("Sending Command 1");
-  PID_Serial.print("05030164000285AC");
+  PID_Serial.write(0x05030164000285AC);
   postTransmission();
   int i = 0;
-  while (i<20000) {
+  while (i<50000) {
     if (PID_Serial.available()) {
       int inByte = PID_Serial.read();
       Serial.write(inByte);
     }
     i++;
   }
-  delay(2000);
   Serial.print("Sending Command 2");
-  PID_Serial.println("05030164000285AC");
+  PID_Serial.print(0x05030164000285AC);
   postTransmission();
   i = 0;
-  while (i<20000) {
+  while (i<50000) {
     if (PID_Serial.available()) {
       int inByte = PID_Serial.read();
       Serial.write(inByte);
