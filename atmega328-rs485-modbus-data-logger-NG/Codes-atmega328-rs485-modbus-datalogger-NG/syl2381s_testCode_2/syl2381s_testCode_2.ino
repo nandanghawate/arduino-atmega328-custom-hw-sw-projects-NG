@@ -22,7 +22,7 @@ void setup() {
   digitalWrite(DE_RE, 0); // default receive
 
   Serial.begin(115200);
-  PID_Serial.begin(PID_BAUD);
+  PID_Serial.begin(9600);
  
   node.begin(1, PID_Serial);
   node.preTransmission(preTransmission);
@@ -32,9 +32,12 @@ void setup() {
   delay(1000);
 }
 void loop() {
-  Serial.println("1 register read :");
-  uint8_t readData;
-  readData = node.readHoldingRegisters(0x0164, 1);
+  uint16_t readData;
+  uint16_t readDataReturn;
+  
+  Serial.println("2 register read :");
+  readData = node.readHoldingRegisters(0x0164, 2);
+  readDataReturn = node.writeMultipleRegisters (0x0000, 100);
   if (readData == node.ku8MBSuccess) {
     Serial.print("\nPV: ");
     Serial.println(node.getResponseBuffer(0));
@@ -42,11 +45,13 @@ void loop() {
   else {
     Serial.print("\nError: ");
     Serial.println(readData, HEX);
+    Serial.print("\nError: ");
+    Serial.println(readDataReturn, HEX);
   }
   delay(5000);
 
-  Serial.println("2 register read :");
-  readData = node.readHoldingRegisters(0x0164, 2);
+  Serial.println("1 register read :");
+  readData = node.readHoldingRegisters(0x0164, 1);
 
   if (readData == node.ku8MBSuccess) {
     Serial.print("\nPV: ");
