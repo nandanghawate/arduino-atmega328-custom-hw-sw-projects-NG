@@ -1,0 +1,23 @@
+### Module positions - created on Thu Jul 21 21:27:08 2022 ###
+### Printed by Pcbnew version (6.0.6)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                   Package                                                     PosX       PosY       Rot  Side
+                                                                                        154.1780   -80.1370    0.0000  top
+                                                                                        107.8230   -80.2640    0.0000  top
+J1        Screw_Terminal_01x02  PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical   105.0000   -60.0000  180.0000  top
+J2        Screw_Terminal_01x02  PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical   135.0000   -60.0000  180.0000  top
+J3        Screw_Terminal_01x02  PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical   120.0000   -60.0000  180.0000  top
+J4        Screw_Terminal_01x02  PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical   165.0000   -60.0000  180.0000  top
+J5        Screw_Terminal_01x02  PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical   150.0000   -60.0000  180.0000  top
+J6        Conn_01x10            PinHeader_1x10_P2.54mm_Vertical                         102.5400   -68.0000    0.0000  top
+J7        Conn_01x10            PinHeader_1x10_P2.54mm_Vertical                         132.5400   -68.0000    0.0000  top
+J8        Conn_01x10            PinHeader_1x10_P2.54mm_Vertical                         117.5400   -68.0000    0.0000  top
+J9        Conn_01x10            PinHeader_1x10_P2.54mm_Vertical                         162.5400   -68.0000    0.0000  top
+J10       Conn_01x10            PinHeader_1x10_P2.54mm_Vertical                         147.5400   -68.0000    0.0000  top
+J11       Screw_Terminal_01x02  PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical   100.0000  -100.0000    0.0000  top
+J12       Screw_Terminal_01x02  PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical   130.0000  -100.0000    0.0000  top
+J13       Screw_Terminal_01x02  PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical   115.0000  -100.0000    0.0000  top
+J14       Screw_Terminal_01x02  PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical   160.0000  -100.0000    0.0000  top
+J15       Screw_Terminal_01x02  PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical   145.0000  -100.0000    0.0000  top
+## End

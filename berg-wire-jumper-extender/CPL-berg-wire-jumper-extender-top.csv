@@ -1,0 +1,19 @@
+Designator,NozzleNum,StackNum,Mid X,Mid Y,Rotation,Height,Speed,Vision,Pressure,Explanation
+,,,,,,,,,,
+,1,L1,0,top,undefined,0,100,None,True,154.178
+,1,L1,0,top,undefined,0,100,None,True,107.823
+J1,1,L1,105,-60,180,0,100,None,True,Screw_Terminal_01x02
+J2,1,L1,135,-60,180,0,100,None,True,Screw_Terminal_01x02
+J3,1,L1,120,-60,180,0,100,None,True,Screw_Terminal_01x02
+J4,1,L1,165,-60,180,0,100,None,True,Screw_Terminal_01x02
+J5,1,L1,150,-60,180,0,100,None,True,Screw_Terminal_01x02
+J6,1,L1,102.54,-68,0,0,100,None,True,Conn_01x10
+J7,1,L1,132.54,-68,0,0,100,None,True,Conn_01x10
+J8,1,L1,117.54,-68,0,0,100,None,True,Conn_01x10
+J9,1,L1,162.54,-68,0,0,100,None,True,Conn_01x10
+J10,1,L1,147.54,-68,0,0,100,None,True,Conn_01x10
+J11,1,L1,100,-100,0,0,100,None,True,Screw_Terminal_01x02
+J12,1,L1,130,-100,0,0,100,None,True,Screw_Terminal_01x02
+J13,1,L1,115,-100,0,0,100,None,True,Screw_Terminal_01x02
+J14,1,L1,160,-100,0,0,100,None,True,Screw_Terminal_01x02
+J15,1,L1,145,-100,0,0,100,None,True,Screw_Terminal_01x02
